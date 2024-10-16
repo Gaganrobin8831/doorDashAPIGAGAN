@@ -1,0 +1,22 @@
+{
+  "name": "doordashapigagan",
+  "version": "1.0.0",
+  "description": "a order and get by doordash",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@doordash/sdk": "^0.6.13",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.7",
+    "pug": "^3.0.3",
+    "uuid": "^10.0.0"
+  }
+}
